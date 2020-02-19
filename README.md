@@ -1,6 +1,6 @@
 ### Taskagent
 
-Taskagent is a Spring Boot application that schedules tasks to agents. A task has a specific skill 
+Taskagent is an application that schedules tasks to agents. A task has a specific skill 
 set that agents need to have in order to be scheduled the task. Tasks also have a low and 
 high priority. A high priority task is immediately scheduled to the most recent scheduled 
 agent that is working on a low priority task. The previous low priority task is deleted.
