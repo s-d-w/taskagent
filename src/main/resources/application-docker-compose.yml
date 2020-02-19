@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://rdbms:5432/taskagentdb
+    username: taskagent-user
+    password: abc123
