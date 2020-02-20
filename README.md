@@ -12,8 +12,9 @@ agent that is working on a low priority task. The previous low priority task is 
 
 Build and run with docker: `docker-compose up --build`
 
-Docker is configured to test, compile, and build the application without and dependencies other
-than docker. However, you can use the gradle wrapper to run it stand alone without docker.
+Docker is configured to test, compile, and build the application without any other installed 
+dependencies other than docker. However, you can use the included gradle wrapper to run it 
+without docker.
 
 Run just the tests: `./gradlew test`
 
